@@ -41,6 +41,17 @@ module.exports = {
 }
 ```
 
+修改package.json
+
+```json
+"scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+},
+```
+
 
 
 
