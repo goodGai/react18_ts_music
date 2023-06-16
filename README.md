@@ -162,6 +162,37 @@ npm install eslint-plugin-prettier eslint-config-prettier -D
 
 
 
+### `Git命令`
+
+- git push推送不了？
+
+  > 将https协议改为git
+
+  ```shell
+  git remote set-url origin git@github.com:<username>/<仓库名称>.git
+  ```
+
+  ​
+
+
+
+
+
+## 目录结构
+
+- assets
+  - css
+  - img
+  - data
+- base-ui
+- components
+- hooks
+- router
+- store
+- service
+- utils
+- views
+
 
 
 
