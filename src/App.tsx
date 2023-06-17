@@ -1,17 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
+import routes from './router';
+import { useRoutes } from 'react-router-dom';
 
 function App() {
-  const [num, setNum] = useState(0);
-  const addNum = () => {
-    const tempNum = num;
-    setNum(tempNum + 1);
-  };
-  return (
-    <div>
-      <div>{num}</div>
-      <button onClick={addNum}>点击+1</button>
-    </div>
-  );
+  return <div className="App">{useRoutes(routes)}</div>;
 }
 
 export default App;

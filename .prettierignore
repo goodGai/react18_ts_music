@@ -1,0 +1,12 @@
+/build/
+.local
+.output.js
+/node_modules/**
+
+src/index.tsx
+craco.config.js
+
+**/*.svg
+**/*.sh
+
+/public/*
