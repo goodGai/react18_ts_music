@@ -193,7 +193,7 @@ npm install eslint-plugin-prettier eslint-config-prettier -D
 - utils
 - views
 
-
+test: git & github 
 
 
 
