@@ -3,7 +3,7 @@
 .output.js
 /node_modules/**
 
-src/index.tsx
+src/*
 craco.config.js
 
 **/*.svg

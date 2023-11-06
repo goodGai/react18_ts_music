@@ -1,6 +1,8 @@
-# 我的项目
+# ReadMe
 
-项目相关说明。
+项目相关说明
+
+
 
 ## 相关配置
 
@@ -14,7 +16,7 @@
 npm i @craco/craco@alpha -D
 ```
 
-创建craco.config.js配置文件(根目录)
+创建 craco.config.js 配置文件(根目录)
 
 ```js
 const path = require('path')
@@ -51,6 +53,8 @@ module.exports = {
     "eject": "react-scripts eject"
 },
 ```
+
+
 
 ### `Prettier格式化配置`
 
@@ -172,7 +176,7 @@ npm install eslint-plugin-prettier eslint-config-prettier -D
   git remote set-url origin git@github.com:<username>/<仓库名称>.git
   ```
 
-  ​
+  
 
 
 
@@ -192,8 +196,6 @@ npm install eslint-plugin-prettier eslint-config-prettier -D
 - service
 - utils
 - views
-
-test: git & github 
 
 
 
